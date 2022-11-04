@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #EBF2C3;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 2%;
+
+}
+
+h1{
+font-size: 70px;
+color: #CD137C;
+font-family: 'Shadows Into Light', cursive;
+}
+
+h3{
+padding-top: 3%;
+margin-left: 2%;
+font-size: 25px;
+color: #CD137C;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.lc {
+    padding-top: 3%;
+    margin-left: 2%;
+    color: #BF3FB2;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    }
+    .btn1 {
+        padding-top: 3%;
+        margin-left: 2%;
+      }
+.button {
+  /* margin-left: 2%; */
+   border-top: 1px solid #8cd0fa;
+   background: #43a6c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cd46d4), to(#43a6c4));
+   background: -webkit-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -moz-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -ms-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -o-linear-gradient(top, #cd46d4, #43a6c4);
+   padding: 5px 13px;
+   -webkit-border-radius: 23px;
+   -moz-border-radius: 23px;
+   border-radius: 23px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #9552c4;
+   background: #9552c4;
+   color: #dbd7db;
+   }
+.button:active {
+   border-top-color: #8f53ad;
+   background: #8f53ad;
+   }
+.Contact{
+  /* border-left: 2%; */
+}
+#btn{
+  border:0;
+  padding: 0;
+  margin-top:20px;
+}
+ul{
+  font-family: 'Roboto Condensed', sans-serif;
+  list-style:none;
+}
+img {
+  display: block;
+  width: 50%;
+  margin: 6% auto 3% auto;
+}

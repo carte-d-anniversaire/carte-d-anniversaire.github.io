@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+html, body {
+    margin: 20px;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #EBF2C3;
+}
+
+.button {
+  /* margin-top: 50px; */
+  margin-left: 2%;
+   border-top: 1px solid #8cd0fa;
+   background: #43a6c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cd46d4), to(#43a6c4));
+   background: -webkit-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -moz-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -ms-linear-gradient(top, #cd46d4, #43a6c4);
+   background: -o-linear-gradient(top, #cd46d4, #43a6c4);
+   padding: 5px 13px;
+   -webkit-border-radius: 23px;
+   -moz-border-radius: 23px;
+   border-radius: 23px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #9552c4;
+   background: #9552c4;
+   color: #dbd7db;
+   }
+.button:active {
+   border-top-color: #8f53ad;
+   background: #8f53ad;
+   }
+
+h1 {
+    text-align: center;
+    transition: all .5s ease-in-out;
+    padding: 25px;
+    font-size: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #BF3FB2;
+
+}
+
+
+ul {
+    margin-top: 10%;
+}
+
+li {
+    list-style-type: circle;
+    margin-top: 10%;
+}
+
+a {
+    padding: 0.5%;
+}
+
+#ordi li {
+    margin-top: 7%;
+}
+
+#ordi a {
+    text-decoration: none;
+    color: rgb(19, 19, 169);
+
+}
+
+#car a {
+    text-decoration: none;
+    color: rgb(19, 19, 169);
+}
+
+#phone a {
+    text-decoration: none;
+    color:rgb(19, 19, 169);
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+    li {
+        margin-top: 8%;
+    }
+
+    #ordi li {
+        margin-top: -6%;
+    }
+}
